@@ -1,6 +1,6 @@
 {
   "author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
-  "name": "form-data",
+  "name": "electron-form-data",
   "description": "A library to create readable \"multipart/form-data\" streams. Can be used to submit forms and file uploads to other web applications.",
   "version": "2.3.3",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "git://github.com/form-data/form-data.git"
   },
   "main": "./lib/form_data",
-  "browser": "./lib/browser",
+  "browser": "./lib/form_data",
   "scripts": {
     "pretest": "rimraf coverage test/tmp",
     "test": "istanbul cover test/run.js",
